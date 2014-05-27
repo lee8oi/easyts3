@@ -5,4 +5,4 @@
 # A simple script that performs a system-wide removal of the TeamSpeak3 client
 # (If it was installed by EasyTS3 client-install.sh).
 
-sudo rm -rf /usr/local/bin/teamspeak /usr/local/share/TeamSpeak3-Client-linux_* /usr/share/applications/teamspeak.desktop
+sudo rm -rf /usr/local/bin/teamspeak /usr/local/TeamSpeak3-Client-linux_* /usr/share/applications/teamspeak.desktop

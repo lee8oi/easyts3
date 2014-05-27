@@ -35,13 +35,13 @@ echo "Comment=Voice chat for gamers." >> teamspeak.desktop
 echo "Type=Application" >> teamspeak.desktop
 echo "Categories=Internet" >> teamspeak.desktop
 echo "Terminal=false" >> teamspeak.desktop
-echo "Icon=/usr/local/share/TeamSpeak3-Client-linux_$arch/teamspeak3.png" >> teamspeak.desktop
-echo "Exec=/usr/local/share/TeamSpeak3-Client-linux_$arch/ts3client_runscript.sh" >> teamspeak.desktop
+echo "Icon=/usr/local/TeamSpeak3-Client-linux_$arch/teamspeak3.png" >> teamspeak.desktop
+echo "Exec=/usr/local/TeamSpeak3-Client-linux_$arch/ts3client_runscript.sh" >> teamspeak.desktop
 
 # Install TeamSpeak system-wide
-sudo mv TeamSpeak3-Client-linux_$arch/ /usr/local/share/
-sudo mv teamspeak3.png /usr/local/share/TeamSpeak3-Client-linux_$arch/
-sudo ln -s /usr/local/share/TeamSpeak3-Client-linux_$arch/ts3client_runscript.sh /usr/local/bin/teamspeak
+sudo mv TeamSpeak3-Client-linux_$arch/ /usr/local/
+sudo mv teamspeak3.png /usr/local/TeamSpeak3-Client-linux_$arch/
+sudo ln -s /usr/local/TeamSpeak3-Client-linux_$arch/ts3client_runscript.sh /usr/local/bin/teamspeak
 sudo mv teamspeak.desktop /usr/share/applications/
 
 # Remove .run file
